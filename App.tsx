@@ -14,13 +14,12 @@ function App() {
     return (
         <NavigationContainer>            
             <Stack.Navigator>
-               <Stack.Screen name="Primer" component={PrimerScreen} />
-            <Stack.Screen name="Upload" component={UploadStatementScreen} />
-            <Stack.Screen name="Permission" component={GrantPermissionScreen} />
-            <Stack.Screen name="Status" component={StatusScreen} />
+            <Stack.Screen name="Primer" component={PrimerScreen} options={{headerShown: false ,  }}/>
+            <Stack.Screen name="Upload" component={UploadStatementScreen} options={{headerShown: false }}/>
+            <Stack.Screen name="Permission" component={GrantPermissionScreen} options={{headerShown: false }}/>
+            <Stack.Screen name="Status" component={StatusScreen} options={{headerShown: false }}/>
             </Stack.Navigator>
         </NavigationContainer>
     );
 }
-
 export default App;
