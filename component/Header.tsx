@@ -13,12 +13,8 @@ const Header = ({ title }) => {
 const styles = StyleSheet.create({
   headerContainer: {
     alignItems: 'center',
-    padding: 20,
-    backgroundColor: '#f8f8f8',
-    position: 'absolute',
-    top: 0,
+    padding: 10,
     width: '100%',
-    zIndex: 1,
   },
   headerImage: {
     width: 119,
